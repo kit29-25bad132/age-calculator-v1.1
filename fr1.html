@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+
+  <link rel="stylesheet" href="fr2.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="main-header">AGE CALCULATOR</h1>
+  </header>
+
+  <div class="card">
+
+    <!-- Pikachu Image Left -->
+    <div class="left">
+      <img src="https://www.chromethemer.com/download/hd-wallpapers/pikachu-3840x2160.jpg" 
+           class="pikachu" 
+           alt="Pikachu">
+    </div>
+
+    <!-- Right section -->
+    <div class="right">
+      <h2 class="sub-title">Enter Your Birthdate</h2>
+
+      <input type="date" id="birthdate" class="input-field">
+
+      <button onclick="calculateAge()" class="btn">Calculate Age</button>
+
+      <div id="result" class="result"></div>
+    </div>
+
+  </div>
+
+  <script src="fr3.js"></script>
+
+</body>
+</html>
